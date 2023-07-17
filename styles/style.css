@@ -237,3 +237,18 @@ p {
     }
 
 }
+
+
+/* tab and other medium device */
+@media screen and (max-width:960px) {
+    .feature-list{
+        flex-direction: column;
+    }
+    .feature-img-container{
+        text-align: center;
+    }
+    .badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
